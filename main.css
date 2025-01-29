@@ -1,0 +1,92 @@
+/* General styles for the services section in pink theme */
+body{
+    background-color: black;
+}
+.services {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  
+  .service {
+    width: 300px;
+    height: 200px;
+    border: 2px solid #f80a81;
+    border-radius: 10px;
+    padding: 15px;
+    margin: 5px;
+    background-color: black;
+    transition: border-color 0.3s ease;
+  }
+  
+  .service:hover {
+    border-color: #6d2248; /* Pink hover border */
+  }
+  
+  /* Styling the service titles and descriptions with span effect */
+  .service-title {
+    font-family: 'Arial', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+    color: black;
+  }
+  
+  .service-title span {
+    display: inline-block;
+    background: #f074a0;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .service_title span:hover{
+    text-decoration: none;
+    border: 2px solid  rgb(220, 0, 121);
+    color: #f074a0;
+    }
+  
+  .service-description {
+    font-family: 'Georgia', serif;
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #e60073;
+  }
+  
+ 
+  .service-link {
+    text-decoration: none;
+    cursor: pointer; 
+    color: rgb(220, 0, 121);
+    border: 2px solid #f074a0;
+    border-radius: 4px;
+    padding: 4px;
+  }
+  
+  .service-link:hover {
+    text-decoration: none;
+    color: #e60073;
+    cursor: url('https://example.com/custom-cursor.png'), pointer; /* Custom cursor on hover */
+  }
+  .cta-button {
+    font-family: 'Arial', sans-serif; 
+    font-size: 1.2rem;
+    font-weight: bold;
+    color:black;
+    background-color: #ff66b2; 
+    padding: 15px 30px; 
+    border: 2px solid #ff66b2; 
+    border-radius: 30px; 
+    width: 200px; 
+    cursor: pointer;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; 
+    margin-left: 38%;
+  }
+  .cta-button:hover {
+    background-color: #ff3399; 
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); 
+    cursor: url('https://example.com/custom-cursor.png'), pointer; 
+  }
+  
+  
+  
+  
